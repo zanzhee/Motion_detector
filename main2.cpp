@@ -19,12 +19,12 @@ const int row = 2;  // Jumlah baris pada LCD
 LiquidCrystal_I2C lcd(0x27, col, row);
 
 // WiFi
-const char* ssid = "FARABIL";
-const char* pass = "051114farabil";
+const char* ssid = "Your WiFi SSID";
+const char* pass = "Your WiFi Password";
 
 // Telegram
-#define BOTtoken "8160898842:AAHAD0JHlOhEg1KJNTTc0N8W8HlrFbUphf0"
-#define CHAT_ID "7048816425"
+#define BOTtoken "your bot token"
+#define CHAT_ID "your telegeram ID"
 WiFiClientSecure client;
 UniversalTelegramBot bot(BOTtoken, client);
 
